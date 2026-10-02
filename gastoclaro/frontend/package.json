@@ -1,0 +1,28 @@
+{
+  "name": "gastoclaro-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "pinia": "^2.1.7",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.6",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
+    "vitest": "^2.1.1",
+    "jsdom": "^25.0.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
